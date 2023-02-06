@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+Button {
+  color: #61dafb;
+}
+.Button:hover {
+  background-color: #61dafb;
+  color: white;
+}
+
+.Button-spin {
+  animation: button-spin infinite 20s linear;
+}
+@keyframes button-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
